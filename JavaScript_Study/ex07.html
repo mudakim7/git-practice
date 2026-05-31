@@ -1,0 +1,51 @@
+<script>
+
+  const f = function(x) {
+    console.log(x+5)
+  }
+
+  f(1)
+
+  function g (x) {
+    console.log(x+5)
+  }
+
+  g(2)
+
+  const rp = function (...x) {
+    console.log(x)
+  }
+
+  rp()
+  rp(1)
+  rp(1,2)
+
+  const pp = function(a, b, c){
+    console.log(a,b,c)
+  }
+
+  const a = [1,2,3]
+  pp(a[0], a[1], a[2])
+  pp(...a)
+
+  //new Date().getFullYear();
+
+  const ap = function(){
+    //console.log(arguments)
+    /*
+    for (let i = 0; i < arguments.length; i++) {
+      const element = arguments[i];
+      console.log(element)
+    }
+    */
+    for (const element of arguments) {
+      console.log(element)
+    }
+
+  }
+
+  ap(1,2,3)
+
+
+
+</script>
