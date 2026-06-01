@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const h1 = document.createElement('h1')
+      document.body.appendChild(h1)
+
+      let count = 0
+      
+      h1.textContent = `클릭회수 : ${count}`
+      h1.style.color = 'blue'
+
+      h1.addEventListener('click', () => {
+        count++
+        alert(count)
+        h1.textContent = `클릭회수 : ${count}`
+      })
+
+      //document.body.appendChild(h1)
+      /*
+      const body = document.querySelector('body')
+      body.appendChild(h1)
+      setTimeout(() => {
+        body.removeChild(h1)
+      }, 2000);
+      */
+
+      const textarea = document.createElement('textarea')
+      textarea.textContent.le
+
+    })
+
+
+
+  </script>
+</head>
+<body>
+  <textarea>
+
+  </textarea>
+</body>
+</html>

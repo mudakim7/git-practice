@@ -1,0 +1,57 @@
+<html>
+<head>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.body.innerHTML += 'ccccccc'
+      
+      const h1 = document.querySelector('h1')
+      h1.style.color = 'red'
+      h1.style.backgroundColor = 'orange'
+
+      const h1_header = document.querySelector('#header')
+      h1_header.style.backgroundColor = 'blue'
+
+      document.querySelector('[type=text]').style.color = 'red'
+      
+      const h1_class = document.querySelectorAll('.center, .head')
+      //h1_class.style.backgroundColor = 'green'
+
+      for (const e of h1_class) {
+        e.style.color = 'blue'
+      }
+      
+      const img = document.querySelector('img')
+      img.setAttribute('src','http://placekitten.com/200/200')
+
+    })
+  </script>
+</head>
+<body>
+  <script>
+    document.body.innerHTML += 'bbbbbb'
+  </script>
+  <h1 id="header" class="center head">안녕하세요.</h1>
+  <h1 class="head">저입니다.</h1>
+  <h1 class="center">반갑습니다.</h1>
+  <h2 class="center">h2.</h2>
+  <h2 class="center">h2.h2.</h2>
+  <img sre="" alt="">
+  <input type="text">
+  <input>
+
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+
+  <script>
+    document.body.innerHTML += 'AAAAA'
+  </script>
+</body>
+</html>
