@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("button").on('click', function(){
+        //$("p").append('<p>접니다.....</p>')
+        //$("p").after('<p>접니다.....</p>')
+        $("p").remove('.red, .yellow')
+      })
+    })
+  </script>
+</head>
+<body>
+  <button>클릭</button>
+  <p>안녕하세요..</p>
+  <p class="red yellow">red안녕하세요..</p>
+  <p>안녕하세요..</p>
+  <p class="yellow">yellow안녕하세요..</p>
+  <p>안녕하세요..</p>
+</body>
+</html>

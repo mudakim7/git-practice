@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      // $("button").click(function(){
+      //   //$("*").css("background-color","gold");
+      //   //$("ul li:first-child").css("background-color","gold");
+      //   $("[type=text]").css("background-color","gold");
+      // })
+      // $("button").on('click', function(){
+      //   $("[type=text]").css("background-color","gold");
+      // })
+      $("button").on({'click' : function(){
+         $("[type=text]").css("background-color","gold");
+         $('a').hide(function() {alert("사라졌네요...")
+        })        
+      }
+    })
+  })
+  </script>
+</head>
+<body>
+  <h1>안녕하세요.....</h1>
+  <p>환영합니다..</p>
+  <p>접니다...</p>
+  <button>클릭해주세요..</button>
+
+  <ul>
+    <li>계란말이</li>
+    <li>김치찌개</li>
+    <li>칼국수</li>
+  </ul>
+
+  <ul>
+    <li>아메리카노</li>
+    <li>카푸치노</li>
+    <li>카페라떼</li>
+  </ul>
+
+  <a href="http://a">aaaa</a>
+  <a href="http://g">ggggg</a>
+  <a >dddddd</a>
+  <p href="http://g">ggggg</p>
+
+  <input type="text" name="" id="">aaaaaa
+  <input type="text">bbbbbbbb
+
+</body>
+</html>
